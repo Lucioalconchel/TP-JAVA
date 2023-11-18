@@ -9,7 +9,6 @@ import java.util.ArrayList;
 public class Cliente {
     private String razonSocial;
     private String cuil;
-    
     private List<SistemaOperativo> listaSistemas;
     private List<SoporteOperativo> listaSoporte;
     

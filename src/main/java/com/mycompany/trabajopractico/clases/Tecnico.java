@@ -6,11 +6,13 @@ import java.util.ArrayList;
 import com.mycompany.trabajopractico.Enums.SistemaOperativo;
 import com.mycompany.trabajopractico.Enums.SoporteOperativo;
 import com.mycompany.trabajopractico.clases.Incidente;
+
 public class Tecnico {
     private String id;
     private List<SistemaOperativo> especialidadSistema;
     private List<SoporteOperativo> especialidadSoporte;
     private List<Incidente> listaIncidentes;
+    //Podria simplificar y que cada tecnico resuelva solamente 1 incidente a la vez
     boolean estado;
     
     //Constructores
@@ -67,4 +69,9 @@ public class Tecnico {
     public List<Incidente> getListaIncidentesTotal(){
         return this.listaIncidentes;
     }
+    
+    /*
+    *   Aun faltan metodos por definir
+    */
+    
 }
